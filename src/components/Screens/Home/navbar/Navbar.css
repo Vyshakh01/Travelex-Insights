@@ -1,0 +1,34 @@
+/* Navbar.css */
+.navbar {
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+}
+
+.navbar-left .logo {
+    text-decoration: solid;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 44px;
+  color: white; /* Assuming your logo text color is white */
+}
+
+.navbar-center .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-center .nav-links li {
+  margin-right: 20px;
+}
+
+
+.navbar-center .nav-links li a {
+  color: white; /* Assuming your navigation links color is white */
+  text-decoration: none;
+}
+
+.navbar-center .nav-links li a:hover {
+  text-decoration: underline;
+} 

@@ -1,0 +1,18 @@
+.Packages{
+    background-color: rgb(78, 49, 5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 350;
+}
+
+.h1{
+
+    position: relative;
+    color: azure;
+    margin: 300px;
+    
+}
