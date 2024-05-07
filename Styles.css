@@ -1,0 +1,136 @@
+/* styles.css */
+
+/* Sticky Header Styles */
+.sticky-header {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #3d8e86; /* Green background color */
+  padding: 10px 0; /* Adjust padding as needed */
+  z-index: 1000; /* Ensure the header appears above other content */
+}
+
+/* Center Align Text */
+.sticky-header h1 {
+  text-align: center;
+  color: #f0fff5; /* Whitish-greenish font color */
+  font-family: "Times New Roman", Times, serif; /* Specify your preferred font family */
+  font-size: 150px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+.originheader {
+  text-align: center;
+  color: #418658; /* Whitish-greenish font color */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; /* Specify your preferred font family */
+  font-size: 50px; /* Adjust font size as needed */
+  margin: 0; /* Remove default margin */
+  padding: 10px 0; /* Adjust padding as needed */
+}
+/* styles.css */
+
+/* Parent Div Styles */
+.container {
+  display: flex; /* Align child divs side by side */
+  justify-content: space-between; /* Space out child divs evenly */
+  background-color: #f0fff5; /* Light greenish background color */
+  padding: 20px;
+  /* Adjust padding as needed */
+}
+
+.child-div {
+  width: 50%;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+/* Text Div Styles */
+.text-div {
+  background-color: #b3e0d2; /* Lighter green background color for text div */
+  padding: 15px; /* Adjust padding as needed */
+}
+
+/* Stylish Paragraph Styles */
+.text-div p {
+  font-family: "Times New Roman", Times, serif; /* SpeciYfy preferred font family */
+  color: #3d8e86; /* Dark green font color */
+  font-size: 17px; /* Adjust font size as needed */
+  line-height: 1.5; /* Adjust line height as needed */
+  margin: 0; /* Remove default margin */
+}
+
+/* Image Div Styles */
+.image-div {
+  display: flex; /* Center align image horizontally and vertically */
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px; /* Adjust padding as needed to make image smaller */
+}
+
+/* Image Styles */
+.image-div img {
+  max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+  max-height: 100%; /* Ensure the image doesn't exceed the height of its container */
+}
+
+.social-heading {
+  background-color: #02332e;
+  max-width: 100%;
+  height: 150px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #b3e0d2;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.social-link {
+  color: aquamarine;
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: center;
+  background-color: #02332e;
+  max-width: 100%;
+  height: 70px;
+  font-size: 30px;
+}
+.social-link :hover {
+  text-decoration: solid;
+  text-decoration: underline;
+}
+
+.parent-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center-align child containers horizontally */
+  align-items: center; /* Center-align child containers vertically */
+  height: 100px; /* Specify the height of the parent div */
+  background-color: #f0fff5; /* Light greenish background color */
+}
+
+/* Child Container Styles */
+.child-container {
+  display: flex; /* Use flexbox for child divs */
+}
+
+/* Image Icon Styles */
+.image-icon,
+.image-icon-left {
+  width: 50px; /* Set the width of the images (adjust as needed for icon size) */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Position the second image to the left */
+.image-icon-left {
+  margin-left: auto; /* Align the second image to the left within its container */
+}
+
+/* Adjust margin between images if needed */
+.child-container:first-child {
+  margin-right: 10px; /* Margin between the first image and the second image */
+}
