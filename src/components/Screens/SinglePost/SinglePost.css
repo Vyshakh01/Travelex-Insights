@@ -1,0 +1,132 @@
+.SinglePost{
+    width :70%;
+    margin: auto; margin: auto; /* Center it horizontally */
+    padding-top: 0; /* Remove any top padding */
+    margin-top: 0;
+    height: 100%;
+  
+}
+
+div.SinglePost div.image{
+    height: 40vh;
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+div.SinglePost h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+div.SinglePost time{
+text-align: center;
+display: block;
+color: #aaa;
+font-size: 0.7rem;
+margin-bottom: 0px;
+}
+
+div.Edit-row{
+    text-align: right;
+}
+
+div.Edit-row a.Edit-btn{
+    background-color: #333;
+    display: inline-flex;
+    color:#fff;
+    align-items: right;
+    padding:5px 15px ;
+    border-radius: 5px;
+    text-decoration: none ;
+    gap: 5px;
+    font-size: 0.8rem;
+    
+    
+}
+a svg{
+    height: 20px;
+}
+
+
+div.SinglePost .author{
+   text-align: center;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-size: 0.7rem;
+        
+    }
+
+div.SinglePost h2{
+    margin-left: 20px;
+}
+
+div.SinglePost div.content p{
+    margin-left: 20px;
+    line-height: 1.8rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+div.SinglePost a{
+    color: #333;
+    text-decoration: none;
+} 
+
+.comment-form {
+    /* Match the width of the content */
+    margin-left: 20px; /* Match the margin of the content */
+}
+
+.comment-input{
+    width: 100vh;
+}
+
+
+/* Comments container */
+.comments {
+    margin-top: 20px;
+    margin-left: 30px; /* Add space between the post content and comments */
+}/* Comments container */
+.comments {
+    margin-top: 20px; /* Add some space between the post content and comments */
+}
+
+.comment {
+    border: 1px solid #ccc; /* Add a border around each comment */
+    padding: 10px; /* Add padding inside each comment */
+    margin-bottom: 10px; /* Add space between each comment */
+    border-radius: 5px; /* Add rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.comment p {
+    margin: 0; /* Remove default margin from paragraphs */
+}
+
+.reply-input {
+    display: block; /* Ensure the input is on a new line */
+    width: 100%; /* Make the input full-width */
+    padding: 5px; /* Add padding inside the input */
+    margin-top: 10px; /* Add space above the input */
+    border: 1px solid #ccc; /* Add a border around the input */
+    border-radius: 3px; /* Add slightly rounded corners */
+}
+
+.comment .commenter{
+    text-align: left;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.like-button{
+    margin-left: 20px;
+    
+}
+
+.like-button button{
+    background-color:#cfcbcb;
+    background-color: #cfcbcb;
+    border: none;
+}
